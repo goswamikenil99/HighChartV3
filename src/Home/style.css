@@ -1,0 +1,58 @@
+/* Style for the container div */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take full height of the screen */
+    background-color: #f4f4f9; /* Light background color */
+    padding: 20px;
+  }
+  
+  /* Style for the heading */
+  .container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the buttons */
+  .button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 18px;
+    padding: 15px 25px; /* Button padding */
+    margin: 10px; /* Space between buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+    text-align: center;
+    text-decoration: none; /* Remove link underline */
+    display: inline-block;
+  }
+  
+  /* Hover effect for the buttons */
+  .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  /* Active effect when button is clicked */
+  .button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    transform: scale(1.02); /* Slight shrink on click */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+  }
+  
+  /* Style for the button container */
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+  }
+  
