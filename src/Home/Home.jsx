@@ -27,9 +27,6 @@ const Home = () => {
         <Link to="/chart" state={chartData.stackedColumnChart}>
           <button className="button">stackedColumn Chart</button>
         </Link>
-        {/* <Link to="/chart" state={chartData.heatmapChart}>
-          <button className="button">heatmap Chart</button>
-        </Link> */}
       </div>
     </div>
   );

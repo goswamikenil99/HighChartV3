@@ -1,11 +1,9 @@
 // ChartPage.js
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-// import highChartMore from 'highcharts-more'
+
 import { useLocation } from 'react-router-dom'; // Use to get the props passed from the Link
 
-// Initialize the heatmap module
-// highChartMore(Highcharts)
 
 
 const ChartPage = () => {
